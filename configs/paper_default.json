@@ -1,0 +1,23 @@
+{
+  "seed": 0,
+  "num_clients": 50,
+  "communication_rounds": 50,
+  "local_epochs": 5,
+  "bags_per_step": 8,
+  "target_bag_size": 32,
+  "stored_proportion_decimals": 6,
+  "stored_bag_weight_decimals": 6,
+  "client_dirichlet_alpha": 0.25,
+  "bag_dirichlet_alpha": 0.5,
+  "optimizer": "sgd",
+  "momentum": 0.9,
+  "initial_learning_rate": 0.05,
+  "weight_decay": 0.0005,
+  "learning_rate_schedule": "cosine",
+  "collaborator_count": 25,
+  "compatibility_bandwidth": "mean_pairwise_distance",
+  "complementarity_strength": 0.05,
+  "complementarity_cap": 0.25,
+  "reliability_refresh_interval": 1,
+  "reliability_bag_limit": 16
+}
